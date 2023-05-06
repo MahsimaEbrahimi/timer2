@@ -72,11 +72,10 @@ namespace timer2
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {
+        {   
             if (isactive)
             {
                 timeCs++;
-                MessageBox.Show("");
                 if (timeCs >= 100)
                 {
                     timeSec++;
@@ -120,13 +119,11 @@ namespace timer2
         }
         private void show()
         {
-            MessageBox.Show("sfdd");
             foreach (Control c in this.Controls)
             {
                 if (c.Name == "lbl")
                 {
-                    MessageBox.Show("sfdd");
-                    c.Text = "jlkjlkj";
+                    c.Text = $"{timeMin}:{timeSec}:{timeCs}";
                 }
             }
         }
