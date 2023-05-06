@@ -1,1 +1,9 @@
 c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\bin\Debug\timer2.exe.config
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\bin\Debug\timer2.exe
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\bin\Debug\timer2.pdb
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\obj\Debug\timer2.csprojResolveAssemblyReference.cache
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\obj\Debug\timer2.Form1.resources
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\obj\Debug\timer2.Properties.Resources.resources
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\obj\Debug\timer2.csproj.GenerateResource.Cache
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\obj\Debug\timer2.exe
+c:\users\mahsima\documents\visual studio 2015\Projects\timer2\timer2\obj\Debug\timer2.pdb
