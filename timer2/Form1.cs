@@ -31,7 +31,8 @@ namespace timer2
             t.Font = new Font(t.Font.FontFamily, 20);
             t.Top = 2 * top;
             t.Left = 4 * left;
-            t.Name = "txtdisplay";
+            t.Name = "lbl";
+            t.Text = "1234";
             t.Width = 3 * width;
             t.Height = 4 * height;
             this.Controls.Add(t);
@@ -75,6 +76,7 @@ namespace timer2
             if (isactive)
             {
                 timeCs++;
+                MessageBox.Show("");
                 if (timeCs >= 100)
                 {
                     timeSec++;
@@ -86,8 +88,8 @@ namespace timer2
                     }
                 }
             }
-            MessageBox.Show("");
-            show();
+          show();
+
         }
 
         private void resetTime()
@@ -118,12 +120,13 @@ namespace timer2
         }
         private void show()
         {
+            MessageBox.Show("sfdd");
             foreach (Control c in this.Controls)
             {
-                if (c.Name == "txtdisplay")
+                if (c.Name == "lbl")
                 {
                     MessageBox.Show("sfdd");
-                    c.Text = $"{timeMin}:{timeSec}:{timeCs}";
+                    c.Text = "jlkjlkj";
                 }
             }
         }
