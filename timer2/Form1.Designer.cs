@@ -35,7 +35,7 @@
             // 
             // show_btn
             // 
-            this.show_btn.Location = new System.Drawing.Point(273, 26);
+            this.show_btn.Location = new System.Drawing.Point(447, 21);
             this.show_btn.Name = "show_btn";
             this.show_btn.Size = new System.Drawing.Size(85, 58);
             this.show_btn.TabIndex = 0;
@@ -43,11 +43,15 @@
             this.show_btn.UseVisualStyleBackColor = true;
             this.show_btn.Click += new System.EventHandler(this.show_btn_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 319);
+            this.ClientSize = new System.Drawing.Size(559, 351);
             this.Controls.Add(this.show_btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";

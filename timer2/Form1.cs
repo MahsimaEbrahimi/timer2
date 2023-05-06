@@ -86,6 +86,7 @@ namespace timer2
                     }
                 }
             }
+            MessageBox.Show("");
             show();
         }
 
@@ -105,11 +106,6 @@ namespace timer2
             isactive = false;
         }
 
-        private void timer_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void show_btn_Click(object sender, EventArgs e)
         {
             make_lable();
@@ -126,6 +122,7 @@ namespace timer2
             {
                 if (c.Name == "txtdisplay")
                 {
+                    MessageBox.Show("sfdd");
                     c.Text = $"{timeMin}:{timeSec}:{timeCs}";
                 }
             }
